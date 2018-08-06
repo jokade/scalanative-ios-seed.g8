@@ -1,6 +1,6 @@
 A [Giter8][g8] template for iOS applications written in Scala using [scalanative-cocoa](https://github.com/jokade/scalanative-cocoa).
 
-Call `sbt run` to run the application, or `sbt prepareBundle` to build the application bundle in `target/scala-2.11`.
+**Note**: WIP - currently not usable sincde it depends on scala-native PR https://github.com/scala-native/scala-native/pull/1132 and issue https://github.com/scala-native/scala-native/issues/396 to be solved.
 
 Template license
 ----------------
