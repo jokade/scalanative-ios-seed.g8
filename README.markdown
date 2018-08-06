@@ -1,6 +1,21 @@
 A [Giter8][g8] template for iOS applications written in Scala using [scalanative-cocoa](https://github.com/jokade/scalanative-cocoa).
 
-**Note**: WIP - currently not usable sincde it depends on scala-native PR https://github.com/scala-native/scala-native/pull/1132 and issue https://github.com/scala-native/scala-native/issues/396 to be solved.
+1. Apply the template
+```
+# g8 jokade/scalanative-ios-seed.g8
+```
+For now, accept the default settings (especially the name "App", since otherwise the Xcode project configuration has errors).
+
+2. Build the executable for iPhone simulator:
+```
+# cd app
+# sbt sim/build
+```
+
+3. Open project in Xcode and run app in simulator
+```
+# open xcode/App.xcodeproj
+```
 
 Template license
 ----------------
